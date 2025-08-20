@@ -1,0 +1,53 @@
+.drag {
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag-btn {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  z-index: 10;
+
+  display: flex;
+  overflow: hidden;
+  width: 0.5rem;
+  height: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+
+  border-radius: 3rem;
+
+  background-color: hsla(207.14285714285717, 100.00%, 32.94%, 0.50);
+
+  backdrop-filter: blur(5px);
+
+  color: var(--colors--white-secondary);
+
+  mix-blend-mode: hard-light;
+}
+
+.text-size-medium {
+  font-size: 1.25rem;
+}
+
+.text-style-description {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.muted {
+  opacity: 0.5;
+}
+
+.text-color-alternate {
+  color: var(--colors--white-primary);
+}
+
+.text-size-large {
+  font-size: 3rem;
+}
